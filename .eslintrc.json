@@ -1,0 +1,57 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "plugins": [
+    "simple-import-sort",
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:unicorn/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "no-console": "off",
+    "import/no-anonymous-default-export": "off",
+    "unicorn/filename-case": "off",
+    "unicorn/prevent-abbreviations": "off",
+    "unicorn/no-null": "off",
+    "no-case-declarations": "off",
+    "unicorn/catch-error-name": "off",
+    "unicorn/no-array-callback-reference": "off",
+    "unicorn/prefer-spread": "off",
+    "unicorn/prefer-string-slice": "off",
+    "sonarjs/cognitive-complexity": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "unicorn/no-new-array": "off",
+    "arrow-parens": [
+      "warn",
+      "always"
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "tabWidth": 2,
+        "printWidth": 80,
+        "endOfLine": "auto",
+        "arrowParens": "always",
+        "trailingComma": "all",
+        "semi": true,
+        "useTabs": false,
+        "singleQuote": true,
+        "bracketSpacing": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+node_modules
+data/abi
+artifacts
+yarn-error.log
+coverage
+typechain
+.DS_Store
+yarn.lock
+cache

@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es5",
+      "es6"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+    "alwaysStrict": false
+  },
+  "exclude": [
+    ".git",
+    ".app-cache",
+    ".npm",
+    ".npm-tmp",
+    "dist",
+    "dist*",
+    "node_modules",
+    "subfolder/dist",
+    "subfolder/node_modules",
+    "**/dist/*",
+    "**/node_modules/*",
+    "**/artifacts/*",
+  ],
+  "include": [
+    "artifacts/**/*",
+    "artifacts/**/*.json",
+    "scripts/**/*",
+    "tasks/**/*",
+    "test/**/*",
+    "typechain/**/*",
+    "types/**/*",
+    "hardhat.config.ts"
+  ],
+  "files": [
+    "./hardhat.config.ts"
+  ]
+}
